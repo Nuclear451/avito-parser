@@ -23,6 +23,8 @@ public class Item {
 
     private String itemType;
 
+    private boolean isShown;
+
     public String getLink() {
         return link;
     }
@@ -77,5 +79,13 @@ public class Item {
 
     public void setItemType(String itemType) {
         this.itemType = itemType;
+    }
+
+    public boolean isShown() {
+        return isShown;
+    }
+
+    public void setShown(boolean shown) {
+        isShown = shown;
     }
 }

@@ -28,6 +28,7 @@ public class AvitoParser {
         item.setPublishedDate(publishedDate);
         item.setSavedDate(LocalDate.now());
         item.setItemType("laptop");
+        item.setShown(false);
 
         return item;
     }
