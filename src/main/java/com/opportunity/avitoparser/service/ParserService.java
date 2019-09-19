@@ -34,7 +34,7 @@ public class ParserService {
             try {
                 items.add(avitoParser.parseHtml(element));
             } catch (Exception e) {
-                System.out.println("Ошибка парсинга");
+                System.out.println("Cannot parse announcement");
             }
         }
 
